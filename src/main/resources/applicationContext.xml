@@ -11,7 +11,7 @@
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
 		destroy-method="close">
 		<property name="driverClass" value="com.mysql.jdbc.Driver"></property>
-		<property name="jdbcUrl" value="jdbc:mysql://192.168.1.88:3306/web"></property>
+		<property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/web"></property>
 		<property name="user" value="web"></property>
 		<property name="password" value="notepad"></property>
 		<property name="maxPoolSize" value="100"></property>
