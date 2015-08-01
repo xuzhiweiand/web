@@ -1,0 +1,76 @@
+body{font-family: '微软雅黑'}
+a,a:hover{ text-decoration:none; color:#0000ff}
+.blog-div {
+	margin: 20px;
+	padding: 5px;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #808080;
+	border-style: dashed;
+}
+
+.blog-title-div {
+	width: 100%;
+	line-height: 40px;
+	border-width: 0 0 1px;
+	border-color: #bfc1c0;
+	border-style: solid;
+}
+
+.blog-title {
+	font-size: 18px;
+	white-space: nowrap;
+	word-wrap: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 100%;
+}
+
+.blog-content-div {
+	padding: 5px 0px;
+}
+
+.blog-content {
+	font-family: punctuation, \5FAE\8F6F\96C5\9ED1, Tohoma;
+	line-height: 1.8;
+	font-size: 14px;
+}
+.blog-info-div{
+	color: #AAAAAA;
+}
+.blog-info{
+	line-height: 1.4;
+	font-size: 12px;
+	
+}
+.blog-masthead {
+	background-color: rgba(51, 122, 182, 1);
+	-webkit-box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+	box-shadow: inset 0 -2px 5px rgba(0, 0, 0, .1);
+}
+
+.blog-nav-item {
+	position: relative;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 500;
+	color: #FFFFFF;
+}
+
+.blog-footer {
+	color: #000000;
+	text-align: center;
+	background-color: rgba(70, 184, 218, 1);
+	border-top: 1px solid #e5e5e5;
+	line-height: 28px;
+}
+
+.form-signin {
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.login-input {
+	margin: 0px 0px 20px 0px;
+}
